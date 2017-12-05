@@ -1,0 +1,206 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+body {
+	color: #000;
+	line-height: 1.5;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+button {
+	margin: 0 auto;
+	display: block;
+	border-radius: 5px;
+	font-weight: 800;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+.container {
+	max-width: 90%;
+ 	margin: 0 auto;
+ 	width: 1024px;
+}
+
+/******************************************
+/* INTRO
+/*******************************************/
+
+/*	Is there another way to get rid of the white space at the top of the background images apart from setting .intro margin to -10px?  */
+
+.intro {
+	background: url("../images/header_bg.jpg") no-repeat center top rgb(134,141,157);
+	background-size: cover;
+	height: 700px;
+	margin-top: -10px;
+}
+
+h1 {
+	color: #fff;
+	font-weight: 800;
+	margin: 10px 0 20px 0;
+	padding-top: 20px;
+	font-size: 45px;
+}
+
+.intro h2 {
+	color: #fff;
+	font-size: 45px;
+	font-weight: 600;
+	margin: 40px;
+	padding: 80px 0 40px 0;
+	text-align: center;
+}
+
+.btn.quote {
+	border: 5px solid #f9e42e;
+	background-color: #f9e42e;
+	color: #033048;
+	font-size: 24px;
+	padding: 10px 50px;
+}
+
+/******************************************
+/* BENEFITS
+/*******************************************/
+
+.benefits {
+	background-color: #f0efef;
+	font-weight: 300;
+	font-size: 26px;
+	height: 550px;
+	padding-top: 40px;
+	color: #606161;
+}
+
+.benefits h2 {
+	color: #033048;
+	font-weight: 600;
+}
+
+.benefits p {
+	max-width: 580px;
+	font-size: 24px;
+}
+
+.benefits ul {
+	font-size: 24px;
+	margin: 40px 0 0 40px;
+	max-width: 450px;
+}
+
+/******************************************
+/* TESTIMONIAL
+/*******************************************/
+
+.testimonial {
+	background: url("../images/testimonial_bg.jpg") no-repeat center top rgb(134,141,157);
+	background-size: cover;
+	height: 394px;
+	padding: 55px 380px;
+	font-size: 28px;
+	text-align: center;
+	color: #fff;
+}
+
+.testimonial p:first-child {
+	font-weight: 300;
+	font-style: italic;
+}
+
+.testimonial p:last-child {
+	font-weight: 600;
+}
+
+/******************************************
+/* SIGNUP
+/*******************************************/
+
+.signup {
+	height: 120px;
+	background-color: #f9e42e;
+	padding: 30px;
+}
+
+#signup {
+	border: 5px solid #033048;
+	background-color: #033048;
+	color: #fff;
+	font-size: 24px;
+	padding: 10px 50px;
+}
+
+/******************************************
+/* FOOTER
+/*******************************************/
+
+footer {
+	background-color: #121212;
+	font-weight: 600;
+	height: 350px;
+	color: #fff;
+	padding: 50px;
+	text-align: center;
+}
+
+footer h2 {
+	color: #f9e42e;
+	font-size: 45px;
+	font-weight: 800;
+	margin: 10px 0 10px 0;
+}
+
+footer ul {
+	margin: 60px 0 60px -17px;
+}
+
+footer li {
+	display: inline-block;
+	list-style: none;
+	margin-right: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
